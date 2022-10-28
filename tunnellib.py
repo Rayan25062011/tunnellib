@@ -27,4 +27,12 @@ class tunnellib(object):
             webbrowser.open(self.web)
         else:
             raise exceptions.WebConfError("Connection is already secured.")
+            
+    def is_dangerous(self): 
+        if self.web.startswith('http://'):
+            dangerous = urllib.request.urlopen(self.web)
+            if self.web.startswith('http://'):
+                print("<CONFIRMED>")
+            else:
+                print("<UNCONFIRMED>")
 
