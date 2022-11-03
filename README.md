@@ -33,4 +33,4 @@ print("Checking...")
 is_dangerous.is_dangerous()
 ```
 # Accepting contributors
-If you would like to join the team, just ask! I will only be accepting the minimum of 60 contributors! I would be very happy, thank you.
+If you would like to join the team, just ask! I will only be accepting the maximum of 60 contributors! I would be very happy, thank you.
